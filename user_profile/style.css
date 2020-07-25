@@ -1,0 +1,62 @@
+.sett{
+	font-size: 10em;
+	cursor: pointer;
+}
+.error {
+	color: red;
+	margin-top: 20px;
+	
+	background: #ff6b6b;
+	color: #fff;
+	height: 40px;
+	line-height: 40px;
+
+}
+.success{
+	margin-top: 25px;
+	height: 40px;
+	line-height: 40px;
+	background: #1dd1a1;
+	color: #fff;
+}
+.bth_change {
+	background: #0F2027;  
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	color: #fff;
+	border: none;
+	outline: none;
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	border-radius: 5px;
+	transition: .5s;
+}
+.btn_change:hover{
+	background: #0F2027;  
+	background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+	transition: 5s all ease;
+}
+.user,.email {
+	pointer-events: none;
+}
+.old_show,.old_hide{
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 135px;
+	font-size: 18px;	
+}
+.new_show,.new_hide {
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 200px;
+}
+.con_show,.con_hide{
+	cursor: pointer;
+	position: absolute;
+	right: 20px;
+	top: 260px;
+}

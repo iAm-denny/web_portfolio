@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Manrope', sans-serif;
+
+}
+#form {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 350px;
+	border: 1px solid #aaa69d;
+	box-shadow: 0 0 5px rgba(0,0,0.3);
+	/*box-shadow: -15px -15px 15px rgba(255,255,255,0.5),15px 15px 15px rgba(0,0,0,0.05);*/
+	border-radius: 15px;
+	overflow: hidden;
+}
+.svg{
+	position: absolute;
+	z-index: -1;
+	height: 100px;
+}
+
+h2{
+	padding-top: 15px;
+	text-align: center;
+	color: #fff;
+}
+#line {
+	width: 200px;
+	height: 5px;
+	position: relative;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #fff;  
+	background: -webkit-linear-gradient(to right, #2C5364, #fff);  
+	background: linear-gradient(to right, #2C5364, #fff);
+}
+.error{
+	color: red;
+	margin-top: 15px;
+}
+.user_name,.pwd{
+	display: flex;
+	margin: 30px 0 50px 25px;
+}
+.user_name >i,.pwd >i {
+	width: 30px;
+	height: 25px;
+	line-height: 25px;
+	align-self: center;
+	justify-content: center;
+	display: flex;
+	background: #0F2027;  
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	color: #fff;
+}
+.pwd  {
+	margin-left: 28px;
+}
+.user_name input,.pwd input {
+	border: none;
+	background: none;
+	border-bottom: 1px solid #000;
+	margin-left: 15px;
+	letter-spacing: 1px;
+	position: relative;
+}
+ .btn {
+ 	text-align: center;
+ 	position: relative;
+ 	top: 20px;
+ }
+.btn button {
+	background: #0F2027;  
+	background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+	border: none;
+	outline: none;
+	width: 100px;
+	height: 35px;
+	color: #fff;
+	cursor: pointer;
+	transition: 5s all ease;
+	border-radius: 15px;
+}
+.btn button:hover{
+	background: #0F2027;  
+	background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  
+	background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+	transition: 5s all ease;
+
+}
+.pwd_show{
+	position: relative;
+	font-size: 18px;
+	left: -20px;
+	cursor: pointer;
+}
+.pwd_hide{
+	position: relative;
+	left: -20px;
+	cursor: pointer;
+
+}
